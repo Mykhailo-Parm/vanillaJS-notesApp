@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+}
+
+.icon {
+  width: 20px;
+}
+
+.note {
+  cursor: pointer;
+}
+
+.note__title {
+  width: 300px;
+}
+
+.note__content {
+  width: 300px;
+}
+
+.note__mentioned-dates {
+  width: 200px;
+}
+
+.note__title span,
+.note__content span,
+.note__mentioned-dates span {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
